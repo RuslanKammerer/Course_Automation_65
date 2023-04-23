@@ -1,10 +1,10 @@
 import org.junit.Assert;
 import org.junit.Test;
 public class MainClassTest {
-    MainClass n = new MainClass();
+    MainClass b = new MainClass();
     @Test
     public void testGetLocalNumber() {
-        Assert.assertTrue("Условие не выполнено",n.getLocalNumber()==14);
+        Assert.assertTrue("Условие сравненения не выполнено",b.getClassNumber()==45);
     }
 
 }
